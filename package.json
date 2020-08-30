@@ -1,7 +1,7 @@
 {
   "name": "web-scrapper",
   "version": "1.0.0",
-  "description": "A web scrapper to scrap data of url https://www.flight-mechanic.com/how-to-become-an-aircraft-mechanic/amt-schools/ using Puppeteer, Node.js and fs module",
+  "description": "A web scrapper to scrap data of url https://www.flight-mechanic.com/how-to-become-an-aircraft-mechanic/amt-schools/ using Puppeteer, Node.js and fs module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,17 +12,13 @@
     "url": "git+https://github.com/preetzira/web-scrapper.git"
   },
   "keywords": [
-    "\"Web",
-    "Scrapping\"",
+    "Web Scrapping",
     "Puppeteer",
-    "\"Aircraft",
-    "Mechanic\"",
-    "\"Amt",
-    "Schools\"",
-    "\"Flight",
-    "Mechanic\"",
-    "\"USA\"",
-    "\"Aviation\""
+    "Aircraft Mechanic",
+    "Amt Schools",
+    "Flight Mechanic",
+    "USA",
+    "Aviation"
   ],
   "author": "Gurpreet Singh",
   "license": "ISC",
