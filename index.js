@@ -40,11 +40,12 @@ let browser, page, fileContent, records = [], titles
             return JSON.stringify(records)
         })
         const data = JSON.parse(records).join('\r\n')
-        fs.writeFile('scraped.csv', data, 'ascii', (err) => {
+        fs.writeFile('scraped.csv', data, 'ascii', async (err) => {
             if (err) console.log(err)
             clearInterval(intervalId)
             console.log('\nScrapping done\n')
             console.timeEnd('time elapsed')
+	    await browser.close()
             process.exit(0)
         })
     } catch (error) {
